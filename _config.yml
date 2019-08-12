@@ -25,12 +25,15 @@ author:
   skill_icon1:
     - name: icon-apache
     - name: fa-python
-    - name: fa-node-js
-    - name: fa-atom
   skill_icon2:
     - name: fa-linux
     - name: fa-windows
+  skill_icon3:
+    - name: fa-node-js
+    - name: fa-atom
+  skill_icon4:
     - name: fa-aws
+
   desc: Scientist (physicist) at heart, enjoys innovating, solving hard problems, pushing brave solution from conception till production. Bad at self-promotion.
 
 # comment
