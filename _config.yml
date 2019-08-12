@@ -32,7 +32,7 @@ author:
     - name: icon-python
     - name: icon-cplusplus
     - name: icon-nodejs
-    - name: fa-atom
+    - name: icon-git
 
   desc: Scientist (physicist) at heart, enjoys innovating, solving hard problems, pushing brave solution from conception till production. Bad at self-promotion.
 
@@ -51,7 +51,7 @@ go:
 
 ## carousels
 index_carousel: off  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
+blog_carousel: off  # blog page carousel switch
 
 # scss
 sass:
