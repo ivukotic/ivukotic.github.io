@@ -55,7 +55,7 @@ go:
   # id:
 
 ## carousels
-index_carousel: off  # index page carousel switch
+index_carousel: on  # index page carousel switch
 blog_carousel: off  # blog page carousel switch
 
 # scss
