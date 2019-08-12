@@ -24,15 +24,15 @@ author:
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-apache
-    - name: fa-python
-  skill_icon2:
+    - name: icon-aws
+    - name: icon-azure
     - name: fa-linux
     - name: fa-windows
-  skill_icon3:
-    - name: fa-node-js
+  skill_icon2:
+    - name: icon-python
+    - name: icon-cplusplus
+    - name: icon-nodejs
     - name: fa-atom
-  skill_icon4:
-    - name: fa-aws
 
   desc: Scientist (physicist) at heart, enjoys innovating, solving hard problems, pushing brave solution from conception till production. Bad at self-promotion.
 
