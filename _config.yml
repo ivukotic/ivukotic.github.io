@@ -1,12 +1,11 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Ilija's Personal
-description: Ilija's blog, use Jekyll and github pages.
-keywords: Ilija, Vukotic, personal, github,gh-pages
+title: Ilija home
+description: Ilija Vukotic github homepage.
+keywords: Ilija, Vukotic, personal, github, gh-pages
 baseurl:  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://ivukotic.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
@@ -40,10 +39,6 @@ author:
     - name: fa-dna
     - name: fa-laptop
   desc: Scientist (physicist) at heart, enjoys innovating, solving hard problems, pushing brave solution from conception till production. Bad at self-promotion.
-
-# comment
-# disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  # name: jalpc
 
 # analytics
 ## google analytics
