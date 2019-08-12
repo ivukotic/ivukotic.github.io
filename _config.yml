@@ -33,7 +33,12 @@ author:
     - name: icon-cplusplus
     - name: icon-nodejs
     - name: icon-git
-
+  skill_icon3:
+    - name: fa-atom
+    - name: fa-rocket
+  skill_icon4:
+    - name: fa-dna
+    - name: fa-laptop
   desc: Scientist (physicist) at heart, enjoys innovating, solving hard problems, pushing brave solution from conception till production. Bad at self-promotion.
 
 # comment
