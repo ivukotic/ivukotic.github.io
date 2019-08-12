@@ -34,7 +34,7 @@ author:
     - name: icon-nodejs
     - name: icon-git
   skill_icon3:
-    - name: fa-linux
+    - name: fa-atom
     - name: fa-rocket
   skill_icon4:
     - name: fa-dna
