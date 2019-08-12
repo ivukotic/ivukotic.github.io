@@ -16,9 +16,9 @@ author:
   last_name: Vukotic  # Be used at index page about me section.
   avatar: /static/assets/img/landing/IVmonogram.gif 
   github_username: ivukotic  # Leave blank if you don't have now
-  linkedin_id: ivukotic # Leave blank if you don't have now
-  facebook_username: ivukotic  # Leave blank if you don't have now
-  twitter_username: ivukotic  # Leave blank if you don't have now
+  linkedin_id: ilija-vukotic-233b083 # Leave blank if you don't have now
+  facebook_username: ilija.vukotic  # Leave blank if you don't have now
+  twitter_username: IlijaVukotic  # Leave blank if you don't have now
   email: ilija@vukotic.me  # Leave blank if you don't have now
   cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
@@ -26,13 +26,12 @@ author:
     - name: icon-apache
     - name: fa-python
     - name: fa-node-js
+    - name: fa-atom
   skill_icon2:
     - name: fa-linux
     - name: fa-windows
     - name: fa-aws
-  skill_icon3:
-    - name: fa-atom
-  desc: Introduce myself will be here.  # Describe yourself.
+  desc: Scientist (physicist) at heart, enjoys innovating, solving hard problems, pushing brave solution from conception till production. Bad at self-promotion.
 
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
