@@ -2,16 +2,16 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
     detail: University of Chicago
-    i18n: company_a
+    i18n: company_UC
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail:  ATLAS federated storage - core software development, systems integration, monitoring, computing centers and user support, setup and operation of a global network of data caching services. ATLAS Analytics group coordinator - provisioning of the hardware, software stack, organizing the data collection and mining services, providing user education and support. I use the framework to analyze system-wide performance, report and act on the insights. Instigator and principal developer behind ATLASrift, an interactive, immersive, virtual reality ATLAS event viewer and outreach tool. Neurocognitive computing in context of ATLAS event selection and reconstruction. Managing cloud (GCE and Azure) deployed ATLAS services. 
+    i18n: company_UC_desc
   date:
-    detail: Apr. 2016
-    i18n: company_a_date
+    detail: 2012-...
+    i18n: company_UC_date
   job:
-    detail: CTO
-    i18n: company_a_job
+    detail: Scientific computing, ATLAS Analytics coordinator
+    i18n: company_UC_job
   icon: fa-plus-square
   present: true
 
