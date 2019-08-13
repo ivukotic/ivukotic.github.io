@@ -33,13 +33,13 @@
     detail: Public institution Center for Eco-toxicological Research
     i18n: company_pic
   desc:
-    detail:  Designed and implemented computer network, data acquisition and document flow.
+    detail: Organized data acquisition, documentation system for the radiology lab handling large amounts of sensitive data.
     i18n: company_pic_desc
   date:
     detail: 2006
     i18n: company_pic_date
   job:
-    detail: Full Stack Developer
+    detail: 
     i18n: company_pic_job
   icon: fa-plus-square
 
