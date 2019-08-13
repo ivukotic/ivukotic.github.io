@@ -17,19 +17,16 @@
 
 - name:
     detail: Linear Accelerator Laboratory
-    i18n: company_b
+    i18n: company_lal
   desc:
-    detail: Software performance optimization and data analysis for the ATLAS experiment, CERN, Geneva. 
-Since this experiment produced data at 60 TB/day rate, software optimization is essential despite having some of the largest computer farms in the world. CPU time, memory and disk space, were squeezed to the limit. Frequently delivering order of magnitude improvements on all three by means of code optimization, algorithm improvements and advance knowledge-based compression. This is all done in C++ with python based interface and is GRID enabled.
-I have performed the full chain of Higgs search data analysis starting from Monte Carlo generation, signal extraction and cuts optimization to systematic effect estimation.
-Conceived, organized and executed full system of monitoring all of the official ATLAS production jobs. All of the performance data from more than 200 thousands jobs per day are collected and summarized in Oracle databases. Planned and executed a system for monitoring and optimization of IO performance of HammerCloud jobs. Investigations on possible usage of GP GPU computing methods inside and outside of ATLAS context. 
-    i18n: company_b_desc
+    detail: Software performance optimization and data analysis for the ATLAS experiment, CERN, Geneva. Since this experiment produced data at 60 TB/day rate, software optimization is essential despite having some of the largest computer farms in the world. CPU time, memory and disk space, were squeezed to the limit. Frequently delivering order of magnitude improvements on all three by means of code optimization, algorithm improvements and advance knowledge-based compression. This is all done in C++ with python based interface and is GRID enabled. I have performed the full chain of Higgs search data analysis starting from Monte Carlo generation, signal extraction and cuts optimization to systematic effect estimation. Conceived, organized and executed full system of monitoring all of the official ATLAS production jobs. All of the performance data from more than 200 thousands jobs per day are collected and summarized in Oracle databases. Planned and executed a system for monitoring and optimization of IO performance of HammerCloud jobs. Investigations on possible usage of GP GPU computing methods inside and outside of ATLAS context. 
+    i18n: company_lal_desc
   date:
     detail: 2006 - 2012
-    i18n: company_b_date
+    i18n: company_lal_date
   job:
     detail: PostDoc at ATLAS experiment
-    i18n: company_b_job
+    i18n: company_lal_job
   icon: fa-plus-square
 
 - name:
