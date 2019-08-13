@@ -30,15 +30,15 @@
   icon: fa-plus-square
 
 - name:
-    detail: Company B
+    detail: Midland Ltd.
     i18n: company_c
   desc:
-    detail: I worked at Company B ...
+    detail: Designed, organized work and implemented automatization of process control systems, access control system, video surveillance and safety system, phone and network systems, databases and financial software.
     i18n: company_c_desc
   date:
-    detail: Jun. 2015
+    detail: 2005
     i18n: company_c_date
   job:
-    detail: Full Stack Developer
+    detail: IT Manager
     i18n: company_c_job
   icon: fa-plus-square
