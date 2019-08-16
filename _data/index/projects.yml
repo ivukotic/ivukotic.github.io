@@ -1,22 +1,22 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
+- name: ServiceX
+  i18n: servicex
+  gh_user: ivukotic
+  repo: servicex
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  desc: Fetching, filtering, transforming, streaming event data to analysis clients. 
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
+- name: XCache
+  i18n: xcache
+  gh_user: ivukotic
+  repo: xcache
   img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  desc: Kubernetes deployable xroot caching server. Includes emulation of whole grid deployment.  
 
-- name: Google
-  i18n: google
-  url: https://google.com
+- name: ML front
+  i18n: mlfront
+  url: https://www.atlas-ml.org
   img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: Frontend for Machine learning studies. Provide JupyterLab, Spark, TensorFlow as a service. Backed by 26 GPUs.
