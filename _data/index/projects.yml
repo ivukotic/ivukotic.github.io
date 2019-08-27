@@ -3,7 +3,7 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: ServiceX
   i18n: servicex
-  gh_user: ivukotic
+  gh_user: ssl-hep
   repo: servicex
   img: /static/assets/img/landing/servicex.png
   desc: Fetching, filtering, transforming, streaming event data to analysis clients. 
@@ -13,11 +13,11 @@
   url: http://slateci.io/XCache/
   gh_user: slateci
   repo: xcache
-  img: /static/assets/img/landing/python.png
+  img: /static/assets/img/landing/xcache-logo.png
   desc: Kubernetes deployable xroot caching server. Includes emulation of whole grid deployment.  
 
 - name: ML front
   i18n: mlfront
   url: https://www.atlas-ml.org
-  img: /static/assets/img/landing/google.png
+  img: /static/assets/img/landing/atlasml.png
   desc: Frontend for Machine learning studies. Provide JupyterLab, Spark, TensorFlow as a service. Backed by 26 GPUs.
