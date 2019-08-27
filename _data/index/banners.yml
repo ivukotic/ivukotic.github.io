@@ -4,7 +4,7 @@
 # Images are expected to be located in `static/assets/img/`.
 - src: landing/ControlRoom-1.jpg
   title: CR
-- src: landing/mix3.png
+- src: landing/mix5.png
   title: MX
 - src: landing/kitesurf.jpg
   title: KS
