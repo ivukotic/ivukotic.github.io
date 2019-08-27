@@ -5,12 +5,13 @@
   i18n: servicex
   gh_user: ivukotic
   repo: servicex
-  img: /static/assets/img/landing/cube.png
+  img: /static/assets/img/landing/servicex.png
   desc: Fetching, filtering, transforming, streaming event data to analysis clients. 
 
 - name: XCache
   i18n: xcache
-  gh_user: ivukotic
+  url: http://slateci.io/XCache/
+  gh_user: slateci
   repo: xcache
   img: /static/assets/img/landing/python.png
   desc: Kubernetes deployable xroot caching server. Includes emulation of whole grid deployment.  
