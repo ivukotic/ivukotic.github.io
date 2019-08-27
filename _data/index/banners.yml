@@ -2,7 +2,11 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/s2i2-banner.jpg
-  title: hep
+- src: landing/ControlRoom.jpg
+  title: CR
+- src: landing/EventDispay.jpg
+  title: ED
+- src: landing/AtlasDetector.jpg
+  title: AD
 - src: landing/kitesurf.jpg
-  title: mekite
+  title: KS
