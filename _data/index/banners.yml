@@ -2,11 +2,9 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/ControlRoom.jpg
+- src: landing/ControlRoom-1.jpg
   title: CR
-- src: landing/EventDispay.jpg
-  title: ED
-- src: landing/AtlasDetector.jpg
-  title: AD
+- src: landing/mix2.jpg
+  title: MX
 - src: landing/kitesurf.jpg
   title: KS

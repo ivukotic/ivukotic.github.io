@@ -5,7 +5,7 @@
   i18n: servicex
   gh_user: ivukotic
   repo: servicex
-  img: /static/assets/img/landing/jekyll.png
+  img: /static/assets/img/landing/cube.png
   desc: Fetching, filtering, transforming, streaming event data to analysis clients. 
 
 - name: XCache
