@@ -49,15 +49,15 @@
             </div>
         </div>
 
-        <!-- {% for icon in site.author.skill_icon4 %} -->
+        {% for icon in site.author.skill_icon4 %}
         <div class="col-xs-2 wow fadeInRight">
             <div class="team-member">
                 <div class="vote-icon" style="text-align: center">
-                    <i class="fas fa-atom"></i>
+                    <i class="fa-regular {{ icon.name }}"></i>
                 </div>
             </div>
         </div>
-        <!-- {% endfor %} -->
+        {% endfor %}
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
