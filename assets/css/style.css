@@ -115,7 +115,7 @@ header.site-header {
 .hero img.avatar {
   width: 108px;
   height: 108px;
-  border-radius: 50%;
+  border-radius: 16px;
   object-fit: cover;
   border: 1px solid var(--border);
   flex-shrink: 0;

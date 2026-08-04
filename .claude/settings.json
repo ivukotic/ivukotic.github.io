@@ -10,7 +10,9 @@
       "Bash(cp static/assets/img/landing/IVmonogram.gif assets/img/avatar.gif)",
       "Bash(cp static/assets/img/landing/servicex.png assets/img/servicex.png)",
       "Bash(cp static/assets/img/landing/xcache-logo.png assets/img/xcache.png)",
-      "Bash(cp static/assets/img/landing/atlasml.png assets/img/mlfront.png)"
+      "Bash(cp static/assets/img/landing/atlasml.png assets/img/mlfront.png)",
+      "Bash(python3 -c ' *)",
+      "Bash(identify assets/img/avatar.gif)"
     ]
   }
 }
