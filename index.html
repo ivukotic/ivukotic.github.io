@@ -1,68 +1,119 @@
----
-layout: blog
-title: index
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ilija Vukotic</title>
+<meta name="description" content="Ilija Vukotic — scientist and software engineer working on scientific computing for the ATLAS experiment.">
+<meta name="author" content="Ilija Vukotic">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
 
-<div class="navbar-wrapper">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-          {% for section in site.data.landing %}
-          <li>
-            {% if section.page %}
-              <a class="page-scroll" href="{{ section.page}} ">
-            {% else %}
-              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
-            {% endif %}
-              <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
-            </a>
-          </li>
-          {% endfor %}
-          {% for language in site.data.index.language %}
-          <li>
-            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
-              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+<header class="site-header">
+  <div class="nav-bar">
+    <a class="brand" href="#top">Ilija Vukotic</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#career">Career</a>
+      <a href="#projects">Projects</a>
+      <a href="#tools">Tools</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <section class="hero" id="about" style="border-top: none;">
+    <img class="avatar" src="/assets/img/avatar.gif" alt="Ilija Vukotic">
+    <div>
+      <h1>Ilija Vukotic</h1>
+      <p class="tagline">Scientist (physicist) at heart, enjoys innovating, solving hard problems, and pushing brave solutions from conception through production. Bad at self-promotion.</p>
+      <div class="social-links">
+        <a href="https://github.com/ivukotic" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ilija-vukotic-233b083" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/IlijaVukotic" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.facebook.com/ilija.vukotic" target="_blank" rel="noopener">Facebook</a>
+        <a href="mailto:ilija@vukotic.me">Email</a>
+        <a href="/assets/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
       </div>
     </div>
-  </nav>
-</div>
-{% if site.index_carousel %}
-{% include carousel.html %}
-{% endif %}
+  </section>
 
-{% for section in site.data.landing %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
-  {% include sections/{{section.tpl}} %}
-</section>
-{% endfor %}
-<style>
-iframe {
-  -moz-transform: scale(0.25, 0.25);
-  -webkit-transform: scale(0.25, 0.25);
-  -o-transform: scale(0.25, 0.25);
-  -ms-transform: scale(0.25, 0.25);
-  transform: scale(0.25, 0.25);
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-}
-</style>
-<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+  <section id="career">
+    <h2>Career</h2>
+    <ul class="timeline">
+      <li class="present">
+        <span class="role">Scientific computing, ATLAS Analytics coordinator</span>
+        <span class="org"> — University of Chicago</span>
+        <span class="dates">2012 – present</span>
+        <p class="desc">ATLAS federated storage — core software development, systems integration, monitoring, computing centers, and user support; setup and operation of a global network of data caching services. ATLAS Analytics group coordinator — provisioning hardware and software stack, organizing data collection and mining services, and providing user education and support. Instigator and principal developer of ATLASrift, an interactive, immersive, virtual-reality ATLAS event viewer and outreach tool. Neurocognitive computing applied to ATLAS event selection and reconstruction. Managing cloud (GCE and Azure) deployed ATLAS services.</p>
+      </li>
+      <li>
+        <span class="role">PostDoc at ATLAS experiment</span>
+        <span class="org"> — Linear Accelerator Laboratory</span>
+        <span class="dates">2006 – 2012</span>
+        <p class="desc">Software performance optimization and data analysis for the ATLAS experiment at CERN, Geneva, where data was produced at 60 TB/day, making optimization essential even on some of the largest computer farms in the world. Delivered order-of-magnitude improvements in CPU time, memory, and disk usage through code optimization, algorithm improvements, and knowledge-based compression, in C++ with a Python interface, GRID-enabled. Performed the full chain of a Higgs search analysis, from Monte Carlo generation through signal extraction, cuts optimization, and systematic-effect estimation. Conceived, organized, and executed a system monitoring all official ATLAS production jobs — performance data from more than 200,000 jobs per day, collected and summarized in Oracle databases. Planned and executed IO performance monitoring for HammerCloud jobs, and investigated GPGPU computing methods inside and outside the ATLAS context.</p>
+      </li>
+      <li>
+        <span class="role">IT / data systems</span>
+        <span class="org"> — Public Institution Center for Eco-toxicological Research</span>
+        <span class="dates">2006</span>
+        <p class="desc">Organized data acquisition and a documentation system for the radiology lab handling large amounts of sensitive data.</p>
+      </li>
+      <li>
+        <span class="role">IT Manager</span>
+        <span class="org"> — Midland Ltd.</span>
+        <span class="dates">2005</span>
+        <p class="desc">Designed, organized, and implemented automation of process control systems, access control, video surveillance and safety systems, phone and network systems, databases, and financial software.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="/assets/img/servicex.png" alt="ServiceX">
+        <h3><a href="https://github.com/ssl-hep/ServiceX" target="_blank" rel="noopener">ServiceX</a></h3>
+        <p>Fetching, filtering, transforming, and streaming event data to analysis clients.</p>
+      </div>
+      <div class="project-card">
+        <img src="/assets/img/xcache.png" alt="XCache">
+        <h3><a href="http://slateci.io/XCache/" target="_blank" rel="noopener">XCache</a></h3>
+        <p>Kubernetes-deployable xroot caching server, including emulation of a whole grid deployment.</p>
+      </div>
+      <div class="project-card">
+        <img src="/assets/img/mlfront.png" alt="ML front">
+        <h3><a href="https://www.atlas-ml.org" target="_blank" rel="noopener">ML front</a></h3>
+        <p>Frontend for machine learning studies, providing JupyterLab, Spark, and TensorFlow as a service, backed by 26 GPUs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <h2>Tools</h2>
+    <div class="tags">
+      <span>Python</span>
+      <span>C++</span>
+      <span>Node.js</span>
+      <span>Git</span>
+      <span>Apache</span>
+      <span>AWS</span>
+      <span>Azure</span>
+      <span>Linux</span>
+      <span>Windows</span>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Reach me by <a href="mailto:ilija@vukotic.me">email</a>, <a href="https://github.com/ivukotic" target="_blank" rel="noopener">GitHub</a>, or <a href="https://www.linkedin.com/in/ilija-vukotic-233b083" target="_blank" rel="noopener">LinkedIn</a>.</p>
+    <p>&copy; Ilija Vukotic</p>
+  </footer>
+
+</main>
+
+</body>
+</html>

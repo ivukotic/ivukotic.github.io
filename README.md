@@ -1,8 +1,9 @@
-TO DO
+# ivukotic.github.io
 
-* customize
-* add my carrer
-* add some projects
-* fully remove blog 
-* get CV on CV
-* update tools icons
+Personal homepage — a single static HTML page, plain CSS, no build step, no dependencies.
+
+- `index.html` — the page
+- `404.html` — not-found page
+- `assets/` — stylesheet, images, CV
+
+Served directly by GitHub Pages; just edit and push.

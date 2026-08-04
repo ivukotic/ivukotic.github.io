@@ -1,0 +1,309 @@
+/* Ilija Vukotic — personal page. Plain CSS, no build step. */
+
+:root {
+  --bg: #fafaf8;
+  --bg-alt: #f2f1ec;
+  --text: #22221f;
+  --text-dim: #55554d;
+  --accent: #8a5a2b;
+  --accent-strong: #6b431f;
+  --border: #e2e0d6;
+  --card-bg: #ffffff;
+  --max-width: 780px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171613;
+    --bg-alt: #1e1c18;
+    --text: #ece9e1;
+    --text-dim: #b3ac9c;
+    --accent: #d69b5c;
+    --accent-strong: #eab578;
+    --border: #34312a;
+    --card-bg: #201e1a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* header / nav */
+
+header.site-header {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
+
+.nav-bar {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.nav-bar .brand {
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.nav-bar .brand:hover {
+  text-decoration: none;
+  color: var(--accent-strong);
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: var(--text-dim);
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: var(--accent-strong);
+}
+
+/* hero */
+
+.hero {
+  padding: 56px 0 40px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.hero img.avatar {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.hero h1 {
+  margin: 0 0 4px;
+  font-size: 30px;
+}
+
+.hero p.tagline {
+  margin: 0 0 12px;
+  color: var(--text-dim);
+}
+
+.social-links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: var(--text-dim);
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+.social-links a:hover {
+  color: var(--accent-strong);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+/* sections */
+
+section {
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+}
+
+section h2 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+
+section > .wrap > p {
+  color: var(--text-dim);
+}
+
+/* career timeline */
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 2px solid var(--border);
+}
+
+.timeline li {
+  position: relative;
+  padding: 0 0 28px 24px;
+}
+
+.timeline li:last-child {
+  padding-bottom: 0;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.timeline li.present::before {
+  background: var(--accent-strong);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-strong) 25%, transparent);
+}
+
+.timeline .role {
+  font-weight: 600;
+}
+
+.timeline .org {
+  color: var(--accent-strong);
+}
+
+.timeline .dates {
+  display: block;
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.timeline .desc {
+  color: var(--text-dim);
+  font-size: 15px;
+}
+
+/* projects */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.project-card p {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+/* tags / tools */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags span {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+/* footer */
+
+footer {
+  padding: 32px 0 48px;
+  color: var(--text-dim);
+  font-size: 14px;
+  border-top: 1px solid var(--border);
+}
+
+footer a {
+  color: var(--text-dim);
+}
+
+footer a:hover {
+  color: var(--accent-strong);
+}
+
+@media (max-width: 560px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

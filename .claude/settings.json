@@ -5,7 +5,12 @@
       "Bash(npm outdated *)",
       "Bash(npm install *)",
       "Bash(npm audit *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(mkdir -p assets/img)",
+      "Bash(cp static/assets/img/landing/IVmonogram.gif assets/img/avatar.gif)",
+      "Bash(cp static/assets/img/landing/servicex.png assets/img/servicex.png)",
+      "Bash(cp static/assets/img/landing/xcache-logo.png assets/img/xcache.png)",
+      "Bash(cp static/assets/img/landing/atlasml.png assets/img/mlfront.png)"
     ]
   }
 }
